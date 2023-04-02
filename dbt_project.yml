@@ -1,4 +1,4 @@
-name: 'trips_data_all'
+name: 'dbt-models'
 version: '1.0.0'
 config-version: 2
 
