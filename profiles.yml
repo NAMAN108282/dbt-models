@@ -1,0 +1,10 @@
+dbt_models:
+  target:
+    dev:
+      type: bigquery
+      method: service-account-json
+      project: bionic-octane-381421
+      schema: trips_data_all
+      threads: 6
+      job_execution_timeout_seconds: 600 
+      location: US
